@@ -27,7 +27,7 @@ h1 {
   font-size: 3em;
 }
 
-.curiosidade {
+.curiosity {
   font-family: "Poppins";
   text-align: center;
   color: var(--color-primary);
@@ -71,7 +71,7 @@ a:hover {
 }
 
 footer {
-  margin-top: 180px;
+  margin-top: 200px;
   display: inline-block;
   text-align: center;
 }
@@ -86,7 +86,7 @@ p {
     padding: 2rem;
   }
 
-  .curiosidade {
+  .curiosity {
     padding: 4rem 10%;
   }
 
@@ -114,7 +114,7 @@ p {
     padding: 3rem;
   }
 
-  .curiosidade {
+  .curiosity {
     padding: 4rem 15%;
   }
 

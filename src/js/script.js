@@ -1,4 +1,4 @@
-function novaCuriosidade() {
+function newCuriosity() {
   // carrega o arquivo txt
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "/src/curiosidades/gerais/curiosidades.txt", true);
@@ -6,8 +6,7 @@ function novaCuriosidade() {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var linhas = xhr.responseText.split("\n");
       var linha = linhas[Math.floor(Math.random() * linhas.length)];
-
-      var curiosidadeDiv = document.querySelector(".curiosidade");
+      var curiosidadeDiv = document.querySelector(".curiosity");
       curiosidadeDiv.innerText = linha;
     }
   };
@@ -15,5 +14,5 @@ function novaCuriosidade() {
 }
 
 window.addEventListener("load", function () {
-  novaCuriosidade();
+  newCuriosity();
 });
